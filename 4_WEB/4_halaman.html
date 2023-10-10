@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membuat Form</title>
+    <link rel="stylesheet" href="3_style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">Biodata diri</div>
+        <div class="content">
+            <form action="#">
+                <div class="user-details">
+                    <div class="input-inbox">
+                        <table class="content-table"> 
+
+                            <tr> 
+                                <td>Nama Lengkap</td> 
+                                <td><input type="text" name= "name" placeholder="Nama Lengkap"></td> 
+                            </tr> 
+                    
+                            <tr> 
+                                <td>Jenis Kelamin</td> 
+                                <td> <input type="radio" name="gender_sex" value="male" >Laki-Laki <input type="radio" name="jen_kelamin" value="female">Perempuan </td> 
+                            </tr>
+                    
+                            <tr> 
+                                <td>Agama</td> 
+                                <td> <select name="agama"> 
+                                    <option value="Islam" >Islam</option> 
+                                    <option value="Kristen">Kristen</option> 
+                                    <option value="Budha">Budha</option> 
+                                </select> 
+                            </td> 
+                        </tr> 
+                    
+                        <tr> 
+                            <td>Anak ke</td> 
+                            <td><input type="text" name= "anak" placeholder="..(dari..bersaudara)"></td> 
+                        </tr>
+                    
+                        <tr> 
+                            <td>Alamat</td> 
+                            <td><input type="text" name= "alamat" placeholder="Alamat lengkap"></td> 
+                        </tr>
+                    
+                        <tr> 
+                            <td>Telepon</td> 
+                            <td><input type="text" name= "kontak" placeholder="+62"></td> 
+                        </tr>
+                    
+                        <tr> 
+                            <td>Nama Ayah</td> 
+                            <td><input type="text" name= "ayah" placeholder="Nama Ayah"></td> 
+                        </tr>
+                    
+                        <tr> 
+                            <td>Nama Ibu</td> 
+                            <td><input type="text" name= "ibu" placeholder="Nama Ibu"></td> 
+                        </tr>
+                    
+                        <tr> 
+                            <td>Alamat Ortu</td> 
+                            <td><input type="text" name= "alamat ortu" placeholder="Alamat Ortu"></td> 
+                        </tr>
+                    
+                        <tr> 
+                            <td>Telepon</td> 
+                            <td><input type="text" name= "Tlp ortu" placeholder="+62"></td> 
+                        </tr>
+                    
+                        <tr> 
+                            <td>Pekerjaan Ayah</td> 
+                            <td> <select name="work ayah"> 
+                                <option value="" ></option> 
+                                <option value="BURUH">Buruh</option> 
+                                <option value="Lainnya">Lainnya <td >
+                                    <label for="Isi Lainnya" style="color: gray;">Isi Pekerjaan Ayah </label><br>
+                                    <textarea cols="10" rows="2" name="isi" style="padding-left: 200px;"></textarea></td> </option>
+                            </select> 
+                        </td> 
+                    </tr> 
+                    
+                    <tr> 
+                        <td>Pekerjaan Ibu</td> 
+                        <td> <select name="work ibu"> 
+                            <option value="PNS" >PNS</option> 
+                            <option value="BURUH">Buruh</option> 
+                            <option value="ibu r">Ibu rumah Tangga</option>
+                            <option value="Lainnya">Lainnya <td>
+                                <label for="Isi Lainnya" style="color: gray;">Isi Pekerjaan Ibu </label><br>
+                                <textarea cols="10" rows="2" name="isi" style="padding-left: 200px;"></textarea></td></option>
+                        </select> 
+                    </td> 
+                    </tr> 
+                    
+                    
+                            <tr> 
+                                <td> Month/Date/Year</td> 
+                                <td> <input type="date" name="birth" placeholder="enter your date of birth"> </td> 
+                            </tr> 
+                            <tr> 
+                                <td>Catatan diri</td> 
+                                <td ><textarea name="ctt"></textarea></td> 
+                            </tr> 
+                    
+                                <tr> 
+                                    <td>Status</td> 
+                                    <td> <select name="status"> 
+                                        <option value="married" >Married</option> 
+                                        <option value="single">single</option> 
+                                    </select> 
+                                </td> 
+                            </tr> 
+                            
+                            <tr> 
+                                <td>Upload photo</td> 
+                                <td><input type ="file" name="image"/></td> 
+                            </tr> 
+                            <tr> 
+                                <td>hobby</td>
+                                <td><textarea name="">
+                    
+                                </textarea></td> 
+                            </tr> 
+                            
+                            <tr> <td></td><td>
+                                <button type="submit">Simpan</button>
+                            </td> 
+                        </tr> 
+                    </table>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>
